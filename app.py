@@ -2,7 +2,7 @@ import pickle
 import pandas as pd
 import requests
 import streamlit as st
-from nltk.stem.porter import PorterStemmer
+# from nltk.stem.porter import PorterStemmer
 
 # import dataset stored in pickle file
 a = pickle.load(open('anime.pkl', 'rb'))
