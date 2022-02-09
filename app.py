@@ -5,8 +5,8 @@ import streamlit as st
 # from nltk.stem.porter import PorterStemmer
 
 # import dataset stored in pickle file
-a = pickle.load(open('anime.pkl', 'rb'))
-ndf = pd.read_pickle('anime.pkl')
+a = pickle.load(open('anime1.pkl', 'rb'))
+ndf = pd.read_pickle('anime1.pkl')
 
 st.image('https://i.pinimg.com/736x/65/c1/66/65c16665f39cbb90161dcf140c6cfce7.jpg')
 
